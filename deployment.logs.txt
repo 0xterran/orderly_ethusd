@@ -1,0 +1,103 @@
+[⠊] Compiling...
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  MockUSDC deployed at: 0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653
+  Swap contract deployed behind proxy at: 0xdD936D90336eAd9F3d68Be5e806FbB8Cb26cBc27
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 54.084501278 gwei
+
+Estimated total gas used for script: 2707779
+
+Estimated amount required: 0.146448876786041562 ETH
+
+==========================
+
+##### sepolia
+✅  [Success]Hash: 0x6ff965e00bb2346d805cba9736a478d81ed2c7489572c3f93303fd92c1714c05
+Contract Address: 0xdD936D90336eAd9F3d68Be5e806FbB8Cb26cBc27
+Block: 6289201
+Paid: 0.00640679619275965 ETH (235090 gas * 27.252525385 gwei)
+
+
+##### sepolia
+✅  [Success]Hash: 0xb5a43a0493e7ac7477de4f729eac8f7e729af8b613c1be39854b9e72431441cb
+Contract Address: 0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653
+Block: 6289201
+Paid: 0.01742428364025514 ETH (639364 gas * 27.252525385 gwei)
+
+
+##### sepolia
+✅  [Success]Hash: 0x19b5e871150f014fb36c9496d0cd457eb8b7b06dce202e4f641dbd69e1c4e375
+Contract Address: 0x16664C82dB72Fe5a79F22e6176d1dC88565Aed9F
+Block: 6289201
+Paid: 0.0329504833924958 ETH (1209080 gas * 27.252525385 gwei)
+
+✅ Sequence #1 on sepolia | Total Paid: 0.05678156322551059 ETH (2083534 gas * avg 27.252525385 gwei)
+                                                                                                                                            
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+##
+Start verification for (3) contracts
+Start verifying contract `0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653` deployed on sepolia
+
+Submitting verification for [src/MockUSDC.sol:MockUSDC] 0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653.
+
+Submitting verification for [src/MockUSDC.sol:MockUSDC] 0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653.
+
+Submitting verification for [src/MockUSDC.sol:MockUSDC] 0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653.
+
+Submitting verification for [src/MockUSDC.sol:MockUSDC] 0x707ed9E2C3D8A90653A460639Dc6D9B2CfF5e653.
+Submitted contract for verification:
+        Response: `OK`
+        GUID: `5irjspmbtgw2a1hzcasq8cfeevpyfiqijxrvsxjma9bag8hxmc`
+        URL: https://sepolia.etherscan.io/address/0x707ed9e2c3d8a90653a460639dc6d9b2cff5e653
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+Start verifying contract `0x16664C82dB72Fe5a79F22e6176d1dC88565Aed9F` deployed on sepolia
+
+Submitting verification for [src/SwapV1.sol:SwapV1] 0x16664C82dB72Fe5a79F22e6176d1dC88565Aed9F.
+Submitted contract for verification:
+        Response: `OK`
+        GUID: `v2znat3b5xznwbslic9n8fsvfy15y6esc3cpavmytgsdnmd1jv`
+        URL: https://sepolia.etherscan.io/address/0x16664c82db72fe5a79f22e6176d1dc88565aed9f
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+Start verifying contract `0xdD936D90336eAd9F3d68Be5e806FbB8Cb26cBc27` deployed on sepolia
+
+Submitting verification for [lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy] 0xdD936D90336eAd9F3d68Be5e806FbB8Cb26cBc27.
+Submitted contract for verification:
+        Response: `OK`
+        GUID: `q5nz5gb3zcsxdyt8ltzcbnrawtne9tl1mdgawdxve8nb6v3tje`
+        URL: https://sepolia.etherscan.io/address/0xdd936d90336ead9f3d68be5e806fbb8cb26cbc27
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+All (3) contracts were verified!
+
+Transactions saved to: /Users/localghost/Projects/SkillsTests/orderly_ethusdc/broadcast/Swap.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /Users/localghost/Projects/SkillsTests/orderly_ethusdc/cache/Swap.s.sol/11155111/run-latest.json
