@@ -6,8 +6,8 @@ Chainlink Functions.
 
 ## Video Walkthrough
 
-Watch the 👉 video walkthrough
-See the code on 👉 github
+Watch the 👉 [video walkthrough](https://drive.google.com/file/d/1HJ4sfKeMXgSuiH54PiMwgjXM5V3glqoK/view?usp=sharing)
+See the code on 👉 [github](https://github.com/0xterran/orderly_ethusd)
 
 ## Deployed Contracts
 
